@@ -1,0 +1,2 @@
+/home/lizhifeng/mygit/unit_test/googletest/CMakeFiles/gtest.dir
+/home/lizhifeng/mygit/unit_test/googletest/CMakeFiles/gtest_main.dir
