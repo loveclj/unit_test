@@ -151,3 +151,9 @@ TEST(IsPrimeTest, Positive) {
 // Did you notice that we didn't register the tests?  The
 // RUN_ALL_TESTS() macro magically knows about all the tests we
 // defined.  Isn't this convenient?
+GTEST_API_ int main(int argc, char **argv) {
+  std::cout << "Running main() from gtest_main.cc\n";
+
+  testing::InitGoogleTest(&argc, argv);
+  return RUN_ALL_TESTS();
+}
